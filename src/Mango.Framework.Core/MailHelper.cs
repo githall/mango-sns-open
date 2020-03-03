@@ -26,7 +26,7 @@ namespace Mango.Framework.Core
                 using (var client = new SmtpClient())
                 {
                     client.Connect("smtp.mxhichina.com", 465, true);
-                    client.Authenticate("邮箱地址", "邮箱登录密码");
+                    client.Authenticate("service@51core.net", "Yu19880804");
 
                     client.Send(emailMessage);
                     client.Disconnect(true);
